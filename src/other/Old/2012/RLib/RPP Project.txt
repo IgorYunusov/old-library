@@ -1,0 +1,24 @@
+		
+		
+		RollRat++ Language Development Project
+
+
+	1. Algorithm
+
+		First Tree Algorithm.
+
+		If you want to my library in your programming, 
+		you always use this and i allow you use that.
+
+		Grammar
+
+			[The Function Matcher]
+				- ESC : escape key action.
+				- \SEC\ : escape key action and neglect others.
+				- * : Match all of things.
+
+
+
+
+Copyright (c) 2009-2013 by rollrat. All right reserved.
+

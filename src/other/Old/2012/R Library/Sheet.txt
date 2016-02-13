@@ -1,0 +1,41 @@
+===================================================
+
+	RollRat-RL Sheet
+
+===================================================
+
+이 문서는 단순히 파서의 EBNF 양식을 연구합니다.
+정식과 다른 표기방식은 편의를 위한 것으로 생각해 주십시오.
+
+1. ROLLRAT-RL PARSER 0.1 A:1 (Complete)
+
+wnc ::= numberic | eng_character										{char 취급}
+numberic ::= '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9'	{char 취급}
+e ::= nullstring | null													{없는셈 취급}
+
+:MODULE
+	S -> exp
+	exp -> exp factor | factor | e
+	exp -> factor
+	factor -> wnc | '\0'												{zero열 종결}
+
+:간략한 CODING
+	if( exp is matched by wnc )
+		match(look_ahead); exp();
+	else if( exp is matched by exp )
+		exp();
+	else if( exp is null )
+		return;
+	else error();
+
+
+2. ROLLRAT-RL PARSER 0.1 A:2
+
+:MODULE
+	S -> exp
+	exp -> exp factor | factor | e
+	exp -> factor
+	factor -> wnc | '\0' | '*' | '?' | '+'
+	poly-> ('*' -> exp '*' | e)
+		| ('?' -> exp | e)
+		| ('+' -> exp '+' | exp)

@@ -1,0 +1,19 @@
+===================================================
+
+	RollRat-RL Pure Script Manual
+
+===================================================
+
+Pure Script Macro Assembler(psma)
+
+PScript 매크로 어셈블러(PS 명령 분해기)
+
+wnc ::= numberic | eng_character										{char 취급}
+numberic ::= '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9'	{char 취급}
+e ::= nullstring | null													{없는셈 취급}
+
+:MODULE
+	(str) -> string
+	str -> wnc str | str | exc | e
+	[str] -> exc
+	

@@ -1,0 +1,1 @@
+unsigned short pop_cnt[0x10000];

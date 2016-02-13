@@ -1,0 +1,15 @@
+
+#define _CRT_CHECK_CONTROL_NOERROR
+#define _CRT_UNENABLE_FORCEINLINE
+#define _CRT_UNENABLE_FORCEINLINE_THEN_USE_INLINE
+#define _CRT_CHECK_USE_DEBUG_ERRORSIGN
+
+// #define _CRT_NOUSEOF_ENUM_FORBOOL
+
+#include "AIM Core.h"
+
+int main()
+{
+
+	return 0;
+}

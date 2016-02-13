@@ -1,0 +1,135 @@
+Sat July 20 22:12:04 2013 Jeong Hyeon Jun <rollrat@naver.com>
+
+	Daleth/0001
+	* Create New Project. - Compiler
+
+	Bet/0058
+	Check.
+
+	Aleph/321
+	Check.
+
+Sat July 06 22:53:57 2013 Jeong Hyeon Jun <rollrat@naver.com>
+
+	Bet/0057
+	* zparse.h : Add project parsing api.
+		- Make Handler and Debug Unit.
+
+Sat June 29 13:04:30 2013 Jeong Hyeon Jun <rollrat@naver.com>
+	
+	Ohters/0004
+	* Start R-Semiotics Project.
+	
+Fri June 28 00:56:30 2013 Jeong Hyeon Jun <rollrat@naver.com>
+
+	Bet/0056
+	Check.
+
+Sun June 23 12:16:06 2013 Jeong Hyeon Jun <rollrat@naver.com>
+
+	Bet/0001
+	* Extend zLib_WinApi.h : Add project winapi shotcut library.
+		- Place one RollRat Edit
+	
+
+Mon June 22 01:11:34 2013 Jeong Hyeon Jun <rollrat@naver.com>
+		
+	Bet/0055
+	* cmptstr.h : 
+		- Make template functions.
+			-- GetStrSize, GetMathcFirst
+				- Get String Size of const pointer
+				- Find perfect match position and get first pos
+
+	Others/0003
+	* None of that.
+
+Mon June 17 23:05:05 2013 Jeong Hyeon Jun <rollrat@naver.com>
+
+	Bet/0054
+	* cmptstr.h : Add project string controlling api.
+		- Make algorithms of STR TITLES.
+			-- (string control api) simil _REGEX_MODULE
+
+	Others/0002
+	* Pre_DAL_ period ending one cool.
+
+
+Sun June 16 14:47:12 2013 Jeong Hyeon Jun <rollrat@naver.com>
+
+	Bet/0053
+	* regex.h : 
+		- Create _REGEX_MODULE class.
+			-- (string control api)
+		- Modification metacharacter read switch.
+
+	Others/0001
+	* The future project 'Dalet' deleted ahead of time.
+
+
+Sat June 15 22:36:34 2013 Jeong Hyeon Jun <rollrat@naver.com>
+	
+	Bet/0052
+	* regex.h : Add project regular expression library.
+		(moved from Aleph project.)
+		- Designed new Algorithm.(simply)
+		- Modification the function _REGEX_ENGINE<>
+
+
+Sat June 01 12:10:22 2013 Jeong Hyeon Jun <rollrat@naver.com>
+	
+	Bet/0001
+	* zfrmy.h : Basis defined of new bet project with multi
+	calculate algorithms that make you help to create new
+	operating system.
+	// Study only * cvfref.h : Computer valriable found project.
+	// Study only * zvprocessor.h : virtual processor
+
+	Aleph/0320
+	* All Finished !
+
+
+	First Wirting this history log at 2013 06 01.
+	
+
+////////////////////////////////////////////////////////////////////////////////
+
+Project Contributors(All the participants)
+
+	Jeong Hyeon Jun(rollrat) : 
+		Birth		06-13-1997
+		Sex			Male
+		Livein		Korea-Incheon_Jikhalsi-Namgu-Kawnkyodong
+		Job			Student(High School First Grade)
+
+
+////////////////////////////////////////////////////////////////////////////////
+
+Projects List
+
+	Uncompleted(Move To)
+		Aleph / regex : Move project to Bet.
+		Aleph / parse : Move project to Bet.
+
+	Completed
+		Aleph / vector : Linked list vector library.
+		Aleph / xpoint : Some of point opeartion function.
+		Aleph / xtree : Standard tree algorithms.
+
+	Graphics
+		DXD9/10/11 : None
+
+
+////////////////////////////////////////////////////////////////////////////////
+
+						First RollRat Shared Library
+
+This project is shared for c/c++ student who want to how to make c/c++ algorithms.
+If you want to change or make more header, you can not only alter this header to 
+the extent but also create new algorithms or c, cpp files, at that time you should
+write your short history on Log.txt file. And thank to write your information on
+Project Contributors.
+
+Lasteset : 2013 July 6th / P.M. 10 : 55
+
+Copyright (c) 2009-2013 by rollrat. All right reserved.
